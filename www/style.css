@@ -1,0 +1,56 @@
+.row-fluid {
+    padding-left: 200px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.row-fluid .span12 { 
+    position: relative;
+    right: 205px;
+}
+.row-fluid .span4 { 
+    position: relative;
+    float: left;
+    width: 200px;
+    right: 205px;
+    margin-right: -200px;
+}
+.row-fluid .span8 {
+    float: right;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+}
+.well { 
+    padding-left: 15px;
+    padding-right: 15px; 
+    margin-bottom: 0px; 
+    width: auto; 
+}
+textarea, .jslider, select{
+    width: 100%;
+}
+input{
+    width: 155px;
+}
+
+.shiny-progress {
+  position: absolute;
+  width: 300px;
+  margin-top: 115px;
+  left: 230px;
+  padding: 12px;
+  border: 1px solid #CCC;
+  border-radius: 8px;
+  background-color: white;
+  opacity: 0.9;
+}
+.shiny-progress .progress-message {
+  font-weight: bold;
+}
+.shiny-progress .progress {
+  margin-bottom: 0;
+}
+.shiny-progress .bar {
+  transition-duration: 250ms;
+}
